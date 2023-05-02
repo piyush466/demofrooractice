@@ -5,8 +5,8 @@ from selenium.webdriver import ActionChains
 from selenium.webdriver.chrome.service import Service
 from selenium.webdriver.common.by import By
 
-chrome = Service(r"C:\\Users\\Cliffex-Lead\\Desktop\\test\\chromedriver.exe")
-driver = webdriver.Chrome(service=chrome)
+# chrome = Service(r"C:\\Users\\Cliffex-Lead\\Desktop\\test\\chromedriver.exe")
+driver = webdriver.Chrome()
 
 driver.get("https://rahulshettyacademy.com/AutomationPractice/")
 driver.maximize_window()
@@ -33,7 +33,7 @@ time.sleep(2)
 
 
 
-
+print("gwgdywe")
 
 
 
