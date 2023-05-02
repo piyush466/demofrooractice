@@ -1,0 +1,16 @@
+2023-04-20 19:04:12,711 :INFO: baseclass :This is a information bugs
+2023-04-20 19:04:12,874 :ERROR: baseclass :This is a erroer
+2023-04-20 19:07:11,381 :DEBUG: test_logging :this is  debug statement
+2023-04-20 19:07:11,381 :INFO: test_logging :this is  information   statement
+2023-04-20 19:07:11,381 :WARNING: test_logging :this is  warning statement
+2023-04-20 19:07:11,381 :ERROR: test_logging :this is majjor error statement
+2023-04-20 19:07:11,381 :CRITICAL: test_logging :thisiid critiacl issue
+2023-04-20 19:07:13,570 :INFO: baseclass :This is a information bugs
+2023-04-20 19:07:13,673 :ERROR: baseclass :This is a erroer
+2023-04-20 19:10:30,219 :INFO: baseclass :This is a information bugs
+2023-04-20 19:10:30,338 :ERROR: baseclass :This is a erroer
+
+
+
+2023-04-21 16:20:49,447 :INFO: baseclass :This is a information bugs
+2023-04-21 16:20:49,597 :ERROR: baseclass :This is a erroer
