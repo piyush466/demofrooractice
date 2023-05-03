@@ -62,3 +62,7 @@ print(driver.current_url)
 test = driver.find_element(By.XPATH,"/html/body/header/div[1]/div/div/div[1]/div/ul/li[1]/span")
 print(test.text)
 
+
+
+print("cdhdyucdy")
+print(" handle page changes ")
