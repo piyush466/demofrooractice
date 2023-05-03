@@ -109,24 +109,47 @@ time.sleep(2)
 
 
 
-driver.find_element(By.ID,'autocomplete').send_keys('in')
-time.sleep(5)
+# driver.find_element(By.ID,'autocomplete').send_keys('in')
+# time.sleep(5)
+#
+# a=True
+#
+# # while a:
+#  # for name in country_name:
+# country_name = driver.find_elements(By.XPATH, '//*[@id="ui-id-1"]/li')
+# for name in country_name:
+#
+#     print(name.text)
+#     if name.text.endswith('dia'):
+#         print(name.text)
+#         name.click()
+#         break
+#     # a=False
+#
+# time.sleep(10)
 
-a=True
 
-# while a:
- # for name in country_name:
-country_name = driver.find_elements(By.XPATH, '//*[@id="ui-id-1"]/li')
-for name in country_name:
 
-    print(name.text)
-    if name.text.endswith('dia'):
-        print(name.text)
-        name.click()
-        break
-    # a=False
 
-time.sleep(10)
+
+
+full_table = driver.find_elements(By.XPATH, "//table/tbody/tr/td")
+
+for table in full_table:
+    print(table.text)
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
